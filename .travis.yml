@@ -3,7 +3,8 @@ notifications:
   recipients:
     - edgurgel@gmail.com
 otp_release:
-  - 17.1
+  - R16B 
+elixir: 0.10.0
 env: MIX_ENV=test
 before_install:
 script: "mix do deps.get, test --no-start"
