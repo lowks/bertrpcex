@@ -1,6 +1,6 @@
 language: elixir
 elixir:
-   - 0.10.0
+   - 0.10.1
 notifications:
   recipients:
     - edgurgel@gmail.com
